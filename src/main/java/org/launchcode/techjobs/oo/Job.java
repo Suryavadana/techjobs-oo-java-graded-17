@@ -30,6 +30,10 @@ public class Job {
         this.positionType = positionType;
         this.coreCompetency = coreCompetency;
     }
+
+    public String toString() {
+        return String.format("%s%s%s", System.lineSeparator(), System.lineSeparator(), System.lineSeparator());
+    }
     // TODO: Add custom equals and hashCode methods. Consider two Job objects "equal" when their id fields
     //  match.
 
